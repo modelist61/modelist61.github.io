@@ -13,7 +13,7 @@
 		<key>displayImageURL</key>
 		<string>https://modelist61.github.io/SmartRegion/images/icon57x57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://modelist61.github.io/SmartRegion/images/icon57x57.png</string>
+		<string>https://modelist61.github.io/SmartRegion/images/icon512x512.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
