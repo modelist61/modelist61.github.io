@@ -1,0 +1,258 @@
+2023-06-16 08:52:47 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x175f107e0; archive(resolved)="<IDEArchive: 0x600009299bc0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x175f107e0; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x175f10550; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x175f8c0e0; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x12521b200; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x12510fcb0; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x13482a790; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x125210e90; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x133f13aa0; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x175ff7b60; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600002a67d40; teamID='2375DJV45D', teamName='Inostudio Solutions', teamType='Company', username='d.tokarev@inostudio.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x177655c10; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="(null)">
+	<IDEDistributionContext: 0x125212140; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="(null)">
+	<IDEDistributionContext: 0x125211cc0; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="(null)">
+	<IDEDistributionContext: 0x177648af0; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600007401fc0>", team="(null)">
+	<IDEDistributionContext: 0x175fe3560; archive = "<IDEArchive: 0x600009299bc0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x175f107e0>
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionCopyItemStep
+2023-06-16 08:52:47 +0000  Running /usr/bin/ditto '-V' '/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app'
+2023-06-16 08:52:47 +0000  >>> Copying /Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app 
+2023-06-16 08:52:47 +0000  copying file ./Authorization.strings ... 
+2023-06-16 08:52:47 +0000  1880 bytes for ./Authorization.strings
+2023-06-16 08:52:47 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-06-16 08:52:47 +0000  8739 bytes for ./_CodeSignature/CodeResources
+2023-06-16 08:52:47 +0000  copying file ./Roboto-Medium.ttf ... 
+2023-06-16 08:52:47 +0000  537252 bytes for ./Roboto-Medium.ttf
+2023-06-16 08:52:47 +0000  copying file ./ReportError.strings ... 
+2023-06-16 08:52:47 +0000  1185 bytes for ./ReportError.strings
+2023-06-16 08:52:47 +0000  copying file ./Roboto-Light.ttf ... 
+2023-06-16 08:52:47 +0000  543992 bytes for ./Roboto-Light.ttf
+2023-06-16 08:52:47 +0000  copying file ./Roboto-Regular.ttf ... 
+2023-06-16 08:52:47 +0000  540224 bytes for ./Roboto-Regular.ttf
+2023-06-16 08:52:47 +0000  copying file ./Roboto-MediumItalic.ttf ... 
+2023-06-16 08:52:47 +0000  559404 bytes for ./Roboto-MediumItalic.ttf
+2023-06-16 08:52:47 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-06-16 08:52:47 +0000  5777 bytes for ./AppIcon60x60@2x.png
+2023-06-16 08:52:47 +0000  copying file ./SmartRegion ... 
+2023-06-16 08:52:47 +0000  924784 bytes for ./SmartRegion
+2023-06-16 08:52:47 +0000  copying file ./Main.strings ... 
+2023-06-16 08:52:47 +0000  2895 bytes for ./Main.strings
+2023-06-16 08:52:47 +0000  copying file ./NotificationsAndCalls.strings ... 
+2023-06-16 08:52:47 +0000  436 bytes for ./NotificationsAndCalls.strings
+2023-06-16 08:52:47 +0000  copying file ./Assets.car ... 
+2023-06-16 08:52:47 +0000  2528216 bytes for ./Assets.car
+2023-06-16 08:52:47 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+7898 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./Roboto-ThinItalic.ttf ... 
+2023-06-16 08:52:47 +0000  559056 bytes for ./Roboto-ThinItalic.ttf
+2023-06-16 08:52:47 +0000  copying file ./Roboto-BoldItalic.ttf ... 
+2023-06-16 08:52:47 +0000  558388 bytes for ./Roboto-BoldItalic.ttf
+2023-06-16 08:52:47 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-06-16 08:52:47 +0000  5569 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-06-16 08:52:47 +0000  copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-06-16 08:52:47 +0000  896 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-06-16 08:52:47 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2023-06-16 08:52:47 +0000  258 bytes for ./LaunchScreen.storyboardc/Info.plist
+2023-06-16 08:52:47 +0000  copying file ./Roboto-LightItalic.ttf ... 
+2023-06-16 08:52:47 +0000  564648 bytes for ./Roboto-LightItalic.ttf
+2023-06-16 08:52:47 +0000  copying file ./Roboto-Italic.ttf ... 
+2023-06-16 08:52:47 +0000  558572 bytes for ./Roboto-Italic.ttf
+2023-06-16 08:52:47 +0000  copying file ./Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources ... 
+2023-06-16 08:52:47 +0000  1798 bytes for ./Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+2023-06-16 08:52:47 +0000  copying file ./Frameworks/MobileVLCKit.framework/MobileVLCKit ... 
+2023-06-16 08:52:47 +0000  33519440 bytes for ./Frameworks/MobileVLCKit.framework/MobileVLCKit
+copying file ./Frameworks/MobileVLCKit.framework/Info.plist ... 
+2023-06-16 08:52:47 +0000  743 bytes for ./Frameworks/MobileVLCKit.framework/Info.plist
+copying file ./Roboto-BlackItalic.ttf ... 
+2023-06-16 08:52:47 +0000  551496 bytes for ./Roboto-BlackItalic.ttf
+2023-06-16 08:52:47 +0000  copying file ./AdditionalTenants.strings ... 
+2023-06-16 08:52:47 +0000  2184 bytes for ./AdditionalTenants.strings
+2023-06-16 08:52:47 +0000  copying file ./embedded.mobileprovision ... 
+2023-06-16 08:52:47 +0000  28961 bytes for ./embedded.mobileprovision
+copying file ./Roboto-Bold.ttf ... 
+2023-06-16 08:52:47 +0000  539952 bytes for ./Roboto-Bold.ttf
+2023-06-16 08:52:47 +0000  copying file ./Roboto-Thin.ttf ... 
+2023-06-16 08:52:47 +0000  543060 bytes for ./Roboto-Thin.ttf
+2023-06-16 08:52:47 +0000  copying file ./Roboto-Black.ttf ... 
+2023-06-16 08:52:47 +0000  533852 bytes for ./Roboto-Black.ttf
+2023-06-16 08:52:47 +0000  copying file ./Common.strings ... 
+2023-06-16 08:52:47 +0000  570 bytes for ./Common.strings
+2023-06-16 08:52:47 +0000  copying file ./Info.plist ... 
+2023-06-16 08:52:47 +0000  1398 bytes for ./Info.plist
+2023-06-16 08:52:47 +0000  copying file ./Settings.strings ... 
+2023-06-16 08:52:47 +0000  403 bytes for ./Settings.strings
+2023-06-16 08:52:47 +0000  copying file ./PkgInfo ... 
+2023-06-16 08:52:47 +0000  8 bytes for ./PkgInfo
+2023-06-16 08:52:47 +0000  /usr/bin/ditto exited with 0
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-06-16 08:52:47 +0000  Skipping profile for item: <IDEDistributionItem: 0x600005d2f900; bundleID='org.videolan.mobilevlckit', path='<DVTFilePath:0x600005f5d3b0:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116a20d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000000a4dc0; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='(null)', teamID='2375DJV45D', identifier='org.videolan.mobilevlckit', executablePath='<DVTFilePath:0x600005f0aa70:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit'>', hardenedRuntime='0'>'>
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionSymbolsStep
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionAppThinningStep
+2023-06-16 08:52:47 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionArchThinningStep
+2023-06-16 08:52:47 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit' '-verify_arch' 'arm64e'
+2023-06-16 08:52:47 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-16 08:52:47 +0000  Skipping architecture thinning for item "MobileVLCKit" because arch "arm64e" wasn't found
+2023-06-16 08:52:47 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app/SmartRegion' '-verify_arch' 'arm64e'
+2023-06-16 08:52:47 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-16 08:52:47 +0000  Skipping architecture thinning for item "SmartRegion" because arch "arm64e" wasn't found
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionODRStep
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-06-16 08:52:47 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600005d2f900; bundleID='org.videolan.mobilevlckit', path='<DVTFilePath:0x600005f5d3b0:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116a20d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000001a7e0; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='(null)', teamID='2375DJV45D', identifier='org.videolan.mobilevlckit', executablePath='<DVTFilePath:0x600005f0aa70:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit'>', hardenedRuntime='0'>'>
+2023-06-16 08:52:47 +0000  Running /usr/bin/xattr '-crs' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app'
+2023-06-16 08:52:47 +0000  /usr/bin/xattr exited with 0
+2023-06-16 08:52:47 +0000  Processing step: IDEDistributionCodesignStep
+2023-06-16 08:52:47 +0000  Entitlements for <IDEDistributionItem: 0x600005d2f900; bundleID='org.videolan.mobilevlckit', path='<DVTFilePath:0x600005f5d3b0:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116a20d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000014c60; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='(null)', teamID='2375DJV45D', identifier='org.videolan.mobilevlckit', executablePath='<DVTFilePath:0x600005f0aa70:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit'>', hardenedRuntime='0'>'>: {
+}
+2023-06-16 08:52:47 +0000  Entitlements for <IDEDistributionItem: 0x600005d2f900; bundleID='org.videolan.mobilevlckit', path='<DVTFilePath:0x600005f5d3b0:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116a20d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000001a680; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='(null)', teamID='2375DJV45D', identifier='org.videolan.mobilevlckit', executablePath='<DVTFilePath:0x600005f0aa70:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit'>', hardenedRuntime='0'>'> are: {
+}
+2023-06-16 08:52:47 +0000  Writing entitlements for <IDEDistributionItem: 0x600005d2f900; bundleID='org.videolan.mobilevlckit', path='<DVTFilePath:0x600005f5d3b0:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116a20d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000001a730; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='(null)', teamID='2375DJV45D', identifier='org.videolan.mobilevlckit', executablePath='<DVTFilePath:0x600005f0aa70:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit'>', hardenedRuntime='0'>'> to: /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/entitlements~~~mvWPkL
+2023-06-16 08:52:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C81F0986DFE0134C366D1E89B2A22B9C293C162' '--entitlements' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/entitlements~~~mvWPkL' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework'
+2023-06-16 08:52:49 +0000  /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework: replacing existing signature
+2023-06-16 08:52:58 +0000  /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework: signed bundle with Mach-O universal (arm64) [org.videolan.mobilevlckit]
+2023-06-16 08:52:58 +0000  /usr/bin/codesign exited with 0
+2023-06-16 08:52:58 +0000  Entitlements for <IDEDistributionItem: 0x600005241800; bundleID='ru.regionInoQa.smart', path='<DVTFilePath:0x600005f5cf50:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116fc960; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000000209a0; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='{
+    "application-identifier" = "2375DJV45D.ru.regionInoQa.smart";
+    "com.apple.developer.team-identifier" = 2375DJV45D;
+    "get-task-allow" = 1;
+}', teamID='2375DJV45D', identifier='ru.regionInoQa.smart', executablePath='<DVTFilePath:0x600005f27950:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/SmartRegion'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "2375DJV45D.ru.regionInoQa.smart";
+    "com.apple.developer.team-identifier" = 2375DJV45D;
+    "get-task-allow" = 0;
+}
+2023-06-16 08:52:58 +0000  Entitlements for <IDEDistributionItem: 0x600005241800; bundleID='ru.regionInoQa.smart', path='<DVTFilePath:0x600005f5cf50:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116fc960; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000001a680; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='{
+    "application-identifier" = "2375DJV45D.ru.regionInoQa.smart";
+    "com.apple.developer.team-identifier" = 2375DJV45D;
+    "get-task-allow" = 1;
+}', teamID='2375DJV45D', identifier='ru.regionInoQa.smart', executablePath='<DVTFilePath:0x600005f27950:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/SmartRegion'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "2375DJV45D.ru.regionInoQa.smart";
+    "com.apple.developer.team-identifier" = 2375DJV45D;
+    "get-task-allow" = 0;
+}
+2023-06-16 08:52:58 +0000  Writing entitlements for <IDEDistributionItem: 0x600005241800; bundleID='ru.regionInoQa.smart', path='<DVTFilePath:0x600005f5cf50:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000116fc960; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000001a9f0; name='Apple Development: Дмитрий Токарев (K668HMRK4X)', hash='50F6708B75F9D33652039C72666E0B9DB86EF710', serialNumber='628736150D53C74815672107D6BFAC2A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-19 08:27:46 +0000''>', entitlements='{
+    "application-identifier" = "2375DJV45D.ru.regionInoQa.smart";
+    "com.apple.developer.team-identifier" = 2375DJV45D;
+    "get-task-allow" = 1;
+}', teamID='2375DJV45D', identifier='ru.regionInoQa.smart', executablePath='<DVTFilePath:0x600005f27950:'/Users/modelist/Library/Developer/Xcode/Archives/2023-06-16/SmartRegion App 16.06.2023, 11.49.xcarchive/Products/Applications/SmartRegion.app/SmartRegion'>', hardenedRuntime='0'>'> to: /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/entitlements~~~sXOXP3
+2023-06-16 08:52:58 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C81F0986DFE0134C366D1E89B2A22B9C293C162' '--entitlements' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/entitlements~~~sXOXP3' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app'
+2023-06-16 08:53:00 +0000  /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app: replacing existing signature
+2023-06-16 08:53:00 +0000  /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app: signed app bundle with Mach-O thin (arm64) [ru.regionInoQa.smart]
+2023-06-16 08:53:00 +0000  /usr/bin/codesign exited with 0
+2023-06-16 08:53:00 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-06-16 08:53:00 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-16 08:53:00 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-16 08:53:00 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-06-16 08:53:00 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root' '/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Packages/SmartRegion.ipa'
+2023-06-16 08:53:00 +0000  >>> Copying /var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root 
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Authorization.strings ... 
+2023-06-16 08:53:00 +0000  1880 bytes for ./Payload/SmartRegion.app/Authorization.strings
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/_CodeSignature/CodeResources ... 
+2023-06-16 08:53:00 +0000  8739 bytes for ./Payload/SmartRegion.app/_CodeSignature/CodeResources
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-Medium.ttf ... 
+2023-06-16 08:53:00 +0000  537252 bytes for ./Payload/SmartRegion.app/Roboto-Medium.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/ReportError.strings ... 
+2023-06-16 08:53:00 +0000  1185 bytes for ./Payload/SmartRegion.app/ReportError.strings
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-Light.ttf ... 
+2023-06-16 08:53:00 +0000  543992 bytes for ./Payload/SmartRegion.app/Roboto-Light.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-Regular.ttf ... 
+2023-06-16 08:53:00 +0000  540224 bytes for ./Payload/SmartRegion.app/Roboto-Regular.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-MediumItalic.ttf ... 
+2023-06-16 08:53:00 +0000  559404 bytes for ./Payload/SmartRegion.app/Roboto-MediumItalic.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/AppIcon60x60@2x.png ... 
+2023-06-16 08:53:00 +0000  5777 bytes for ./Payload/SmartRegion.app/AppIcon60x60@2x.png
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/SmartRegion ... 
+2023-06-16 08:53:00 +0000  924768 bytes for ./Payload/SmartRegion.app/SmartRegion
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Main.strings ... 
+2023-06-16 08:53:00 +0000  2895 bytes for ./Payload/SmartRegion.app/Main.strings
+copying file ./Payload/SmartRegion.app/NotificationsAndCalls.strings ... 
+2023-06-16 08:53:00 +0000  436 bytes for ./Payload/SmartRegion.app/NotificationsAndCalls.strings
+copying file ./Payload/SmartRegion.app/Assets.car ... 
+2023-06-16 08:53:00 +0000  2528216 bytes for ./Payload/SmartRegion.app/Assets.car
+copying file ./Payload/SmartRegion.app/AppIcon76x76@2x~ipad.png ... 
+2023-06-16 08:53:00 +0000  7898 bytes for ./Payload/SmartRegion.app/AppIcon76x76@2x~ipad.png
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-ThinItalic.ttf ... 
+2023-06-16 08:53:00 +0000  559056 bytes for ./Payload/SmartRegion.app/Roboto-ThinItalic.ttf
+copying file ./Payload/SmartRegion.app/Roboto-BoldItalic.ttf ... 
+2023-06-16 08:53:00 +0000  558388 bytes for ./Payload/SmartRegion.app/Roboto-BoldItalic.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-06-16 08:53:00 +0000  5569 bytes for ./Payload/SmartRegion.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-06-16 08:53:00 +0000  896 bytes for ./Payload/SmartRegion.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/LaunchScreen.storyboardc/Info.plist ... 
+2023-06-16 08:53:00 +0000  258 bytes for ./Payload/SmartRegion.app/LaunchScreen.storyboardc/Info.plist
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-LightItalic.ttf ... 
+2023-06-16 08:53:00 +0000  564648 bytes for ./Payload/SmartRegion.app/Roboto-LightItalic.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Roboto-Italic.ttf ... 
+2023-06-16 08:53:00 +0000  558572 bytes for ./Payload/SmartRegion.app/Roboto-Italic.ttf
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources ... 
+2023-06-16 08:53:00 +0000  1798 bytes for ./Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+2023-06-16 08:53:00 +0000  copying file ./Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit ... 
+2023-06-16 08:53:01 +0000  33519728 bytes for ./Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+copying file ./Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/Info.plist ... 
+2023-06-16 08:53:01 +0000  743 bytes for ./Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework/Info.plist
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/Roboto-BlackItalic.ttf ... 
+2023-06-16 08:53:01 +0000  551496 bytes for ./Payload/SmartRegion.app/Roboto-BlackItalic.ttf
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/AdditionalTenants.strings ... 
+2023-06-16 08:53:01 +0000  2184 bytes for ./Payload/SmartRegion.app/AdditionalTenants.strings
+copying file ./Payload/SmartRegion.app/embedded.mobileprovision ... 
+2023-06-16 08:53:01 +0000  20827 bytes for ./Payload/SmartRegion.app/embedded.mobileprovision
+copying file ./Payload/SmartRegion.app/Roboto-Bold.ttf ... 
+2023-06-16 08:53:01 +0000  539952 bytes for ./Payload/SmartRegion.app/Roboto-Bold.ttf
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/Roboto-Thin.ttf ... 
+2023-06-16 08:53:01 +0000  543060 bytes for ./Payload/SmartRegion.app/Roboto-Thin.ttf
+copying file ./Payload/SmartRegion.app/Roboto-Black.ttf ... 
+2023-06-16 08:53:01 +0000  533852 bytes for ./Payload/SmartRegion.app/Roboto-Black.ttf
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/Common.strings ... 
+2023-06-16 08:53:01 +0000  570 bytes for ./Payload/SmartRegion.app/Common.strings
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/Info.plist ... 
+2023-06-16 08:53:01 +0000  1398 bytes for ./Payload/SmartRegion.app/Info.plist
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/Settings.strings ... 
+2023-06-16 08:53:01 +0000  403 bytes for ./Payload/SmartRegion.app/Settings.strings
+2023-06-16 08:53:01 +0000  copying file ./Payload/SmartRegion.app/PkgInfo ... 
+2023-06-16 08:53:01 +0000  8 bytes for ./Payload/SmartRegion.app/PkgInfo
+2023-06-16 08:53:01 +0000  /usr/bin/ditto exited with 0
+2023-06-16 08:53:01 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-06-16 08:53:01 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-06-16 08:53:01 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-06-16 08:53:01 +0000  IDEDistributionItem init <DVTFilePath:0x600005c1c3f0:'/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app/Frameworks/MobileVLCKit.framework'>
+2023-06-16 08:53:01 +0000  IDEDistributionItem init <DVTFilePath:0x600005ffbcd0:'/var/folders/_y/tj14qd8146g8d_4wrz2vc93w0000gn/T/XcodeDistPipeline.~~~Vs3Iy5/Root/Payload/SmartRegion.app'>
+2023-06-16 08:53:01 +0000  Processing step: IDEDistributionCreateManifestStep
